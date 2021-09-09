@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Ipomoea-library)(type Legacy)(uri "$(KIPRJMOD)/../Ipomoea-library/Ipomoea-quamoclit.lib")(options "")(descr ""))
+  (lib (name kbd)(type Legacy)(uri "$(KIPRJMOD)/../kbd/library/kbd.lib")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Ipomoea-library)(type KiCad)(uri ${KIPRJMOD}/../Ipomoea-library/Ipomoea-library.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../kbd/kbd.pretty)(options "")(descr ""))
+  (lib (name Ipomoea-logo)(type KiCad)(uri ${KIPRJMOD}/../Ipomoea-library/Ipomoea-logo.pretty)(options "")(descr ""))
+)

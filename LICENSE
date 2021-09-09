@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2020 kamuwo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This project contains kbd product and/or modifications of kbd product
+Copyright (c) 2018 foostan
+https://raw.githubusercontent.com/foostan/kbd/master/LICENSE
+https://github.com/foostan/kbd/
+
+This project contains helix product and/or modifications of helix product
+Copyright (c) 2018 MakotoKurauchi
+https://raw.githubusercontent.com/MakotoKurauchi/helix/master/LICENSE
+https://github.com/MakotoKurauchi/helix/
+
+This project contains ergo42 product and/or modifications of ergo42 product
+Copyright (c) 2017 Biacco42
+https://github.com/Biacco42/Ergo42/blob/master/LICENSE
+https://github.com/Biacco42/Ergo42/

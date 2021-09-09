@@ -1,0 +1,3099 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2450 6850 0    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR08
+U 1 1 5E36E379
+P 3050 6850
+F 0 "#PWR08" H 3050 6600 50  0001 C CNN
+F 1 "GND" H 3055 6677 50  0000 C CNN
+F 2 "" H 3050 6850 50  0001 C CNN
+F 3 "" H 3050 6850 50  0001 C CNN
+	1    3050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW901
+U 1 1 5E36C7C3
+P 2750 6850
+F 0 "SW901" H 2750 7105 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 7014 50  0000 C CNN
+F 2 "Ipomoea-library:ResetSW" H 2750 6850 50  0001 C CNN
+F 3 "" H 2750 6850 50  0000 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 3400 0    50   Input ~ 0
+GND
+Text GLabel 8500 3200 0    50   Input ~ 0
+TX0
+Text GLabel 8500 3300 0    50   Input ~ 0
+RX1
+Text GLabel 8500 3800 0    50   Input ~ 0
+D4
+Text GLabel 8500 3900 0    50   Input ~ 0
+C6
+Text GLabel 8500 4000 0    50   Input ~ 0
+D7
+Text GLabel 8500 4100 0    50   Input ~ 0
+E6
+Text GLabel 8500 4200 0    50   Input ~ 0
+B4
+Text GLabel 8500 4300 0    50   Input ~ 0
+B5
+Text GLabel 9900 3100 2    50   Input ~ 0
+BAT
+Text GLabel 9900 3200 2    50   Input ~ 0
+RAW
+Text GLabel 9900 3400 2    50   Input ~ 0
+RST
+Text GLabel 9900 3500 2    50   Input ~ 0
+VCC
+Text GLabel 9900 3600 2    50   Input ~ 0
+F4
+Text GLabel 9900 3700 2    50   Input ~ 0
+F5
+Text GLabel 9900 3800 2    50   Input ~ 0
+F6
+Text GLabel 9900 3900 2    50   Input ~ 0
+F7
+Text GLabel 9900 4000 2    50   Input ~ 0
+B1
+Text GLabel 9900 4100 2    50   Input ~ 0
+B3
+Text GLabel 9900 4200 2    50   Input ~ 0
+B2
+Text GLabel 9900 4300 2    50   Input ~ 0
+B6
+Text GLabel 9900 1400 2    50   Input ~ 0
+BAT
+Text GLabel 9900 1500 2    50   Input ~ 0
+RAW
+Text GLabel 9900 1600 2    50   Input ~ 0
+GND
+Text GLabel 9900 1700 2    50   Input ~ 0
+RST
+Text GLabel 9900 1800 2    50   Input ~ 0
+VCC
+Text GLabel 9900 1900 2    50   Input ~ 0
+F4
+Text GLabel 9900 2000 2    50   Input ~ 0
+F5
+Text GLabel 9900 2100 2    50   Input ~ 0
+F6
+Text GLabel 9900 2200 2    50   Input ~ 0
+F7
+Text GLabel 9900 2300 2    50   Input ~ 0
+B1
+Text GLabel 9900 2400 2    50   Input ~ 0
+B3
+Text GLabel 9900 2500 2    50   Input ~ 0
+B2
+Text GLabel 9900 2600 2    50   Input ~ 0
+B6
+Wire Wire Line
+	9500 5050 9500 4750
+Wire Wire Line
+	9350 5050 9500 5050
+$Comp
+L power:VCC #PWR04
+U 1 1 5E3752FE
+P 9500 4750
+F 0 "#PWR04" H 9500 4600 50  0001 C CNN
+F 1 "VCC" H 9517 4923 50  0000 C CNN
+F 2 "" H 9500 4750 50  0001 C CNN
+F 3 "" H 9500 4750 50  0001 C CNN
+	1    9500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E3B0C71
+P 7350 1350
+F 0 "#FLG0101" H 7350 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 7350 1523 50  0000 C CNN
+F 2 "" H 7350 1350 50  0001 C CNN
+F 3 "~" H 7350 1350 50  0001 C CNN
+	1    7350 1350
+	-1   0    0    1   
+$EndComp
+Text GLabel 7350 1350 1    50   Input ~ 0
+BAT
+Wire Wire Line
+	9350 5100 9500 5100
+Wire Wire Line
+	9500 5100 9500 5250
+$Comp
+L power:GND #PWR0102
+U 1 1 5E372461
+P 9500 5250
+F 0 "#PWR0102" H 9500 5000 50  0001 C CNN
+F 1 "GND" H 9505 5077 50  0000 C CNN
+F 2 "" H 9500 5250 50  0001 C CNN
+F 3 "" H 9500 5250 50  0001 C CNN
+	1    9500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5E35A135
+P 9150 5075
+F 0 "J1" H 9181 5351 50  0000 C CNN
+F 1 "MJ-4PP-9" H 9181 5260 50  0000 C CNN
+F 2 "Ipomoea-library:MJ-4PP-9" H 9425 5250 50  0001 C CNN
+F 3 "~" H 9425 5250 50  0001 C CNN
+	1    9150 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E3712BD
+P 6600 1350
+F 0 "#PWR0101" H 6600 1100 50  0001 C CNN
+F 1 "GND" H 6605 1177 50  0000 C CNN
+F 2 "" H 6600 1350 50  0001 C CNN
+F 3 "" H 6600 1350 50  0001 C CNN
+	1    6600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E35954F
+P 6950 1350
+F 0 "#FLG02" H 6950 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6950 1523 50  0000 C CNN
+F 2 "" H 6950 1350 50  0001 C CNN
+F 3 "~" H 6950 1350 50  0001 C CNN
+	1    6950 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5E3587B5
+P 6950 1350
+F 0 "#PWR06" H 6950 1200 50  0001 C CNN
+F 1 "VCC" H 6967 1523 50  0000 C CNN
+F 2 "" H 6950 1350 50  0001 C CNN
+F 3 "" H 6950 1350 50  0001 C CNN
+	1    6950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E35821C
+P 6600 1350
+F 0 "#FLG01" H 6600 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 1523 50  0000 C CNN
+F 2 "" H 6600 1350 50  0001 C CNN
+F 3 "~" H 6600 1350 50  0001 C CNN
+	1    6600 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 3600 0    50   Input ~ 0
+D1_SDA
+Text GLabel 8500 3700 0    50   Input ~ 0
+D0_SCL
+Wire Wire Line
+	9350 5000 9700 5000
+Text GLabel 10500 5650 0    50   Input ~ 0
+D1_SDA
+$Comp
+L power:VCC #PWR03
+U 1 1 5E419052
+P 10150 5150
+F 0 "#PWR03" H 10150 5000 50  0001 C CNN
+F 1 "VCC" H 10167 5323 50  0000 C CNN
+F 2 "" H 10150 5150 50  0001 C CNN
+F 3 "" H 10150 5150 50  0001 C CNN
+	1    10150 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5E41886B
+P 11100 5150
+F 0 "#PWR02" H 11100 5000 50  0001 C CNN
+F 1 "VCC" H 11117 5323 50  0000 C CNN
+F 2 "" H 11100 5150 50  0001 C CNN
+F 3 "" H 11100 5150 50  0001 C CNN
+	1    11100 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10500 5450 0    50   Input ~ 0
+xtradata
+Text GLabel 9700 5000 1    50   Input ~ 0
+xtradata
+$Comp
+L Device:Jumper JP1
+U 1 1 5E4862B6
+P 10800 5450
+F 0 "JP1" H 10800 5714 50  0000 C CNN
+F 1 "Jumper" H 10800 5623 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper" H 10800 5450 50  0001 C CNN
+F 3 "~" H 10800 5450 50  0001 C CNN
+	1    10800 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 5650 11100 5450
+$Comp
+L Device:R R1
+U 1 1 5E411194
+P 11100 5300
+F 0 "R1" V 11000 5300 50  0000 C CNN
+F 1 "R" V 11100 5300 50  0000 C CNN
+F 2 "Ipomoea-library:R" V 11030 5300 50  0001 C CNN
+F 3 "~" H 11100 5300 50  0001 C CNN
+	1    11100 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 11100 5450
+Wire Wire Line
+	10500 5650 11100 5650
+$Comp
+L Device:R R2
+U 1 1 5E411BA7
+P 10000 5150
+F 0 "R2" V 9900 5150 50  0000 C CNN
+F 1 "R" V 10000 5150 50  0000 C CNN
+F 2 "Ipomoea-library:R" V 9930 5150 50  0001 C CNN
+F 3 "~" H 10000 5150 50  0001 C CNN
+	1    10000 5150
+	0    1    1    0   
+$EndComp
+Text GLabel 10500 1600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10500 1600 11000 1600
+Wire Wire Line
+	10550 2100 10500 2100
+Wire Wire Line
+	10500 2000 10550 2000
+Wire Wire Line
+	10550 1900 10500 1900
+Wire Wire Line
+	10500 1800 11100 1800
+Wire Wire Line
+	10550 1700 10500 1700
+Text GLabel 10550 1700 2    50   Input ~ 0
+reset
+Text GLabel 10500 2100 0    50   Input ~ 0
+F6
+Text GLabel 10500 2000 0    50   Input ~ 0
+F5
+Text GLabel 10500 1900 0    50   Input ~ 0
+F4
+Text GLabel 10500 1800 0    50   Input ~ 0
+VCC
+Text GLabel 10500 1700 0    50   Input ~ 0
+RST
+Text GLabel 10550 2100 2    50   Input ~ 0
+col2
+Text GLabel 10550 2000 2    50   Input ~ 0
+col1
+Text GLabel 10550 1900 2    50   Input ~ 0
+col0
+Wire Wire Line
+	11000 1600 11000 1900
+$Comp
+L power:GND #PWR0103
+U 1 1 5E372C52
+P 11000 1900
+F 0 "#PWR0103" H 11000 1650 50  0001 C CNN
+F 1 "GND" H 11005 1727 50  0000 C CNN
+F 2 "" H 11000 1900 50  0001 C CNN
+F 3 "" H 11000 1900 50  0001 C CNN
+	1    11000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 1500 11100 1800
+$Comp
+L power:VCC #PWR01
+U 1 1 5E38995B
+P 11100 1500
+F 0 "#PWR01" H 11100 1350 50  0001 C CNN
+F 1 "VCC" H 11117 1673 50  0000 C CNN
+F 2 "" H 11100 1500 50  0001 C CNN
+F 3 "" H 11100 1500 50  0001 C CNN
+	1    11100 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  3100 0    50   Input ~ 0
+row1
+Wire Wire Line
+	10550 2400 10500 2400
+Wire Wire Line
+	10500 2300 10550 2300
+Wire Wire Line
+	10550 2200 10500 2200
+Text GLabel 10550 2400 2    50   Input ~ 0
+col5
+Text GLabel 10550 2300 2    50   Input ~ 0
+col4
+Text GLabel 10550 2200 2    50   Input ~ 0
+col3
+Wire Wire Line
+	10550 2500 10500 2500
+Text GLabel 10550 2500 2    50   Input ~ 0
+col6
+Text GLabel 10500 2200 0    50   Input ~ 0
+F7
+Text GLabel 10500 2300 0    50   Input ~ 0
+B1
+Text GLabel 10500 2400 0    50   Input ~ 0
+B3
+Text GLabel 10500 2500 0    50   Input ~ 0
+B2
+Wire Wire Line
+	10550 2600 10500 2600
+Text GLabel 10550 2600 2    50   Input ~ 0
+row6
+Text GLabel 10500 2600 0    50   Input ~ 0
+B6
+Text GLabel 750  4400 0    50   Input ~ 0
+row3
+Text GLabel 750  3750 0    50   Input ~ 0
+row2
+Text GLabel 750  5050 0    50   Input ~ 0
+row4
+Text GLabel 750  5700 0    50   Input ~ 0
+row5
+Text GLabel 750  6350 0    50   Input ~ 0
+row6
+$Comp
+L Device:D D8
+U 1 1 5ED48429
+P 7100 2300
+F 0 "D8" V 7146 2221 50  0000 R CNN
+F 1 "D" V 7055 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 2300 50  0001 C CNN
+F 3 "~" H 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5ED48423
+P 6800 2150
+F 0 "SW8" H 6800 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 2150 50  0001 C CNN
+F 3 "" H 6800 2150 50  0000 C CNN
+	1    6800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5ED4841D
+P 6300 2300
+F 0 "D7" V 6346 2221 50  0000 R CNN
+F 1 "D" V 6255 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 2300 50  0001 C CNN
+F 3 "~" H 6300 2300 50  0001 C CNN
+	1    6300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5ED48417
+P 6000 2150
+F 0 "SW7" H 6000 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 2150 50  0001 C CNN
+F 3 "" H 6000 2150 50  0000 C CNN
+	1    6000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5ED40424
+P 5500 2300
+F 0 "D6" V 5546 2221 50  0000 R CNN
+F 1 "D" V 5455 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5ED4041E
+P 5200 2150
+F 0 "SW6" H 5200 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 2150 50  0001 C CNN
+F 3 "" H 5200 2150 50  0000 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5ED40418
+P 4700 2300
+F 0 "D5" V 4746 2221 50  0000 R CNN
+F 1 "D" V 4655 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 2300 50  0001 C CNN
+F 3 "~" H 4700 2300 50  0001 C CNN
+	1    4700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5ED40412
+P 4400 2150
+F 0 "SW5" H 4400 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 2150 50  0001 C CNN
+F 3 "" H 4400 2150 50  0000 C CNN
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5ED4040C
+P 3900 2300
+F 0 "D4" V 3946 2221 50  0000 R CNN
+F 1 "D" V 3855 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 2300 50  0001 C CNN
+F 3 "~" H 3900 2300 50  0001 C CNN
+	1    3900 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5ED40406
+P 3600 2150
+F 0 "SW4" H 3600 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 2150 50  0001 C CNN
+F 3 "" H 3600 2150 50  0000 C CNN
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5E4E768F
+P 3100 2300
+F 0 "D3" V 3146 2221 50  0000 R CNN
+F 1 "D" V 3055 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 2300 50  0001 C CNN
+F 3 "~" H 3100 2300 50  0001 C CNN
+	1    3100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5E4E7689
+P 2800 2150
+F 0 "SW3" H 2800 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 2150 50  0001 C CNN
+F 3 "" H 2800 2150 50  0000 C CNN
+	1    2800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5E4E6402
+P 2300 2300
+F 0 "D2" V 2346 2221 50  0000 R CNN
+F 1 "D" V 2255 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 2300 50  0001 C CNN
+F 3 "~" H 2300 2300 50  0001 C CNN
+	1    2300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5E4E63FC
+P 2000 2150
+F 0 "SW2" H 2000 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 2150 50  0001 C CNN
+F 3 "" H 2000 2150 50  0000 C CNN
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5E4E4C80
+P 1500 2300
+F 0 "D1" V 1546 2221 50  0000 R CNN
+F 1 "D" V 1455 2221 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 2300 50  0001 C CNN
+F 3 "~" H 1500 2300 50  0001 C CNN
+	1    1500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5E4E4615
+P 1200 2150
+F 0 "SW1" H 1200 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 2314 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 2150 50  0001 C CNN
+F 3 "" H 1200 2150 50  0000 C CNN
+	1    1200 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  2450 0    50   Input ~ 0
+row0
+$Comp
+L Device:D D16
+U 1 1 5ED6D1A6
+P 7100 2950
+F 0 "D16" V 7146 2871 50  0000 R CNN
+F 1 "D" V 7055 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 2950 50  0001 C CNN
+F 3 "~" H 7100 2950 50  0001 C CNN
+	1    7100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5ED6D1AC
+P 6800 2800
+F 0 "SW16" H 6800 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 2800 50  0001 C CNN
+F 3 "" H 6800 2800 50  0000 C CNN
+	1    6800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5ED6D1B2
+P 6300 2950
+F 0 "D15" V 6346 2871 50  0000 R CNN
+F 1 "D" V 6255 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 2950 50  0001 C CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5ED6D1B8
+P 6000 2800
+F 0 "SW15" H 6000 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0000 C CNN
+	1    6000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5ED6D1C2
+P 5500 2950
+F 0 "D14" V 5546 2871 50  0000 R CNN
+F 1 "D" V 5455 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 2950 50  0001 C CNN
+F 3 "~" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5ED6D1C8
+P 5200 2800
+F 0 "SW14" H 5200 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 2800 50  0001 C CNN
+F 3 "" H 5200 2800 50  0000 C CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5ED6D1CE
+P 4700 2950
+F 0 "D13" V 4746 2871 50  0000 R CNN
+F 1 "D" V 4655 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 2950 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5ED6D1D4
+P 4400 2800
+F 0 "SW13" H 4400 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0000 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5ED6D1DA
+P 3900 2950
+F 0 "D12" V 3946 2871 50  0000 R CNN
+F 1 "D" V 3855 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 2950 50  0001 C CNN
+F 3 "~" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5ED6D1E0
+P 3600 2800
+F 0 "SW12" H 3600 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 2800 50  0001 C CNN
+F 3 "" H 3600 2800 50  0000 C CNN
+	1    3600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5ED6D1EB
+P 3100 2950
+F 0 "D11" V 3146 2871 50  0000 R CNN
+F 1 "D" V 3055 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 2950 50  0001 C CNN
+F 3 "~" H 3100 2950 50  0001 C CNN
+	1    3100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5ED6D1F1
+P 2800 2800
+F 0 "SW11" H 2800 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0000 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5ED6D1F7
+P 2300 2950
+F 0 "D10" V 2346 2871 50  0000 R CNN
+F 1 "D" V 2255 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 2950 50  0001 C CNN
+F 3 "~" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5ED6D1FD
+P 2000 2800
+F 0 "SW10" H 2000 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 2800 50  0001 C CNN
+F 3 "" H 2000 2800 50  0000 C CNN
+	1    2000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5ED6D206
+P 1500 2950
+F 0 "D9" V 1546 2871 50  0000 R CNN
+F 1 "D" V 1455 2871 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 2950 50  0001 C CNN
+F 3 "~" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5ED6D20C
+P 1200 2800
+F 0 "SW9" H 1200 3055 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 2964 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 2800 50  0001 C CNN
+F 3 "" H 1200 2800 50  0000 C CNN
+	1    1200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5ED781B5
+P 7100 3600
+F 0 "D24" V 7146 3521 50  0000 R CNN
+F 1 "D" V 7055 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 3600 50  0001 C CNN
+F 3 "~" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5ED781BB
+P 6800 3450
+F 0 "SW24" H 6800 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 3450 50  0001 C CNN
+F 3 "" H 6800 3450 50  0000 C CNN
+	1    6800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5ED781C1
+P 6300 3600
+F 0 "D23" V 6346 3521 50  0000 R CNN
+F 1 "D" V 6255 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5ED781C7
+P 6000 3450
+F 0 "SW23" H 6000 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0000 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5ED781D1
+P 5500 3600
+F 0 "D22" V 5546 3521 50  0000 R CNN
+F 1 "D" V 5455 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 3600 50  0001 C CNN
+F 3 "~" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5ED781D7
+P 5200 3450
+F 0 "SW22" H 5200 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 3450 50  0001 C CNN
+F 3 "" H 5200 3450 50  0000 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5ED781DD
+P 4700 3600
+F 0 "D21" V 4746 3521 50  0000 R CNN
+F 1 "D" V 4655 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 3600 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5ED781E3
+P 4400 3450
+F 0 "SW21" H 4400 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 3450 50  0001 C CNN
+F 3 "" H 4400 3450 50  0000 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5ED781E9
+P 3900 3600
+F 0 "D20" V 3946 3521 50  0000 R CNN
+F 1 "D" V 3855 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 3600 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5ED781EF
+P 3600 3450
+F 0 "SW20" H 3600 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 3450 50  0001 C CNN
+F 3 "" H 3600 3450 50  0000 C CNN
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5ED781FA
+P 3100 3600
+F 0 "D19" V 3146 3521 50  0000 R CNN
+F 1 "D" V 3055 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 3600 50  0001 C CNN
+F 3 "~" H 3100 3600 50  0001 C CNN
+	1    3100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5ED78200
+P 2800 3450
+F 0 "SW19" H 2800 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 3450 50  0001 C CNN
+F 3 "" H 2800 3450 50  0000 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5ED78206
+P 2300 3600
+F 0 "D18" V 2346 3521 50  0000 R CNN
+F 1 "D" V 2255 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 3600 50  0001 C CNN
+F 3 "~" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5ED7820C
+P 2000 3450
+F 0 "SW18" H 2000 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 3450 50  0001 C CNN
+F 3 "" H 2000 3450 50  0000 C CNN
+	1    2000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5ED78215
+P 1500 3600
+F 0 "D17" V 1546 3521 50  0000 R CNN
+F 1 "D" V 1455 3521 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 3600 50  0001 C CNN
+F 3 "~" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5ED7821B
+P 1200 3450
+F 0 "SW17" H 1200 3705 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 3614 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 3450 50  0001 C CNN
+F 3 "" H 1200 3450 50  0000 C CNN
+	1    1200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5ED7F787
+P 7100 4250
+F 0 "D32" V 7146 4171 50  0000 R CNN
+F 1 "D" V 7055 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 4250 50  0001 C CNN
+F 3 "~" H 7100 4250 50  0001 C CNN
+	1    7100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5ED7F78D
+P 6800 4100
+F 0 "SW32" H 6800 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 4100 50  0001 C CNN
+F 3 "" H 6800 4100 50  0000 C CNN
+	1    6800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5ED7F793
+P 6300 4250
+F 0 "D31" V 6346 4171 50  0000 R CNN
+F 1 "D" V 6255 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 4250 50  0001 C CNN
+F 3 "~" H 6300 4250 50  0001 C CNN
+	1    6300 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5ED7F799
+P 6000 4100
+F 0 "SW31" H 6000 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 4100 50  0001 C CNN
+F 3 "" H 6000 4100 50  0000 C CNN
+	1    6000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5ED7F7A3
+P 5500 4250
+F 0 "D30" V 5546 4171 50  0000 R CNN
+F 1 "D" V 5455 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 4250 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5ED7F7A9
+P 5200 4100
+F 0 "SW30" H 5200 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 4100 50  0001 C CNN
+F 3 "" H 5200 4100 50  0000 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5ED7F7AF
+P 4700 4250
+F 0 "D29" V 4746 4171 50  0000 R CNN
+F 1 "D" V 4655 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 4250 50  0001 C CNN
+F 3 "~" H 4700 4250 50  0001 C CNN
+	1    4700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5ED7F7B5
+P 4400 4100
+F 0 "SW29" H 4400 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0000 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5ED7F7BB
+P 3900 4250
+F 0 "D28" V 3946 4171 50  0000 R CNN
+F 1 "D" V 3855 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 4250 50  0001 C CNN
+F 3 "~" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5ED7F7C1
+P 3600 4100
+F 0 "SW28" H 3600 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 4100 50  0001 C CNN
+F 3 "" H 3600 4100 50  0000 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5ED7F7CC
+P 3100 4250
+F 0 "D27" V 3146 4171 50  0000 R CNN
+F 1 "D" V 3055 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 4250 50  0001 C CNN
+F 3 "~" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5ED7F7D2
+P 2800 4100
+F 0 "SW27" H 2800 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 4100 50  0001 C CNN
+F 3 "" H 2800 4100 50  0000 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5ED7F7D8
+P 2300 4250
+F 0 "D26" V 2346 4171 50  0000 R CNN
+F 1 "D" V 2255 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 4250 50  0001 C CNN
+F 3 "~" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5ED7F7DE
+P 2000 4100
+F 0 "SW26" H 2000 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0000 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5ED7F7E7
+P 1500 4250
+F 0 "D25" V 1546 4171 50  0000 R CNN
+F 1 "D" V 1455 4171 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 4250 50  0001 C CNN
+F 3 "~" H 1500 4250 50  0001 C CNN
+	1    1500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5ED7F7ED
+P 1200 4100
+F 0 "SW25" H 1200 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 4264 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 4100 50  0001 C CNN
+F 3 "" H 1200 4100 50  0000 C CNN
+	1    1200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5ED8A16B
+P 7100 4900
+F 0 "D40" V 7146 4821 50  0000 R CNN
+F 1 "D" V 7055 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 4900 50  0001 C CNN
+F 3 "~" H 7100 4900 50  0001 C CNN
+	1    7100 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 5ED8A171
+P 6800 4750
+F 0 "SW40" H 6800 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 4750 50  0001 C CNN
+F 3 "" H 6800 4750 50  0000 C CNN
+	1    6800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5ED8A177
+P 6300 4900
+F 0 "D39" V 6346 4821 50  0000 R CNN
+F 1 "D" V 6255 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 4900 50  0001 C CNN
+F 3 "~" H 6300 4900 50  0001 C CNN
+	1    6300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 5ED8A17D
+P 6000 4750
+F 0 "SW39" H 6000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 4750 50  0001 C CNN
+F 3 "" H 6000 4750 50  0000 C CNN
+	1    6000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5ED8A187
+P 5500 4900
+F 0 "D38" V 5546 4821 50  0000 R CNN
+F 1 "D" V 5455 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 4900 50  0001 C CNN
+F 3 "~" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 5ED8A18D
+P 5200 4750
+F 0 "SW38" H 5200 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 4750 50  0001 C CNN
+F 3 "" H 5200 4750 50  0000 C CNN
+	1    5200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5ED8A193
+P 4700 4900
+F 0 "D37" V 4746 4821 50  0000 R CNN
+F 1 "D" V 4655 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 4900 50  0001 C CNN
+F 3 "~" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 5ED8A199
+P 4400 4750
+F 0 "SW37" H 4400 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 4750 50  0001 C CNN
+F 3 "" H 4400 4750 50  0000 C CNN
+	1    4400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5ED8A19F
+P 3900 4900
+F 0 "D36" V 3946 4821 50  0000 R CNN
+F 1 "D" V 3855 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5ED8A1A5
+P 3600 4750
+F 0 "SW36" H 3600 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 4750 50  0001 C CNN
+F 3 "" H 3600 4750 50  0000 C CNN
+	1    3600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5ED8A1B0
+P 3100 4900
+F 0 "D35" V 3146 4821 50  0000 R CNN
+F 1 "D" V 3055 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 4900 50  0001 C CNN
+F 3 "~" H 3100 4900 50  0001 C CNN
+	1    3100 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5ED8A1B6
+P 2800 4750
+F 0 "SW35" H 2800 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 4750 50  0001 C CNN
+F 3 "" H 2800 4750 50  0000 C CNN
+	1    2800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5ED8A1BC
+P 2300 4900
+F 0 "D34" V 2346 4821 50  0000 R CNN
+F 1 "D" V 2255 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 4900 50  0001 C CNN
+F 3 "~" H 2300 4900 50  0001 C CNN
+	1    2300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5ED8A1C2
+P 2000 4750
+F 0 "SW34" H 2000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 4750 50  0001 C CNN
+F 3 "" H 2000 4750 50  0000 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5ED8A1CB
+P 1500 4900
+F 0 "D33" V 1546 4821 50  0000 R CNN
+F 1 "D" V 1455 4821 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 4900 50  0001 C CNN
+F 3 "~" H 1500 4900 50  0001 C CNN
+	1    1500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5ED8A1D1
+P 1200 4750
+F 0 "SW33" H 1200 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 4914 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 4750 50  0001 C CNN
+F 3 "" H 1200 4750 50  0000 C CNN
+	1    1200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5ED91961
+P 7100 5550
+F 0 "D48" V 7146 5471 50  0000 R CNN
+F 1 "D" V 7055 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 5550 50  0001 C CNN
+F 3 "~" H 7100 5550 50  0001 C CNN
+	1    7100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW48
+U 1 1 5ED91967
+P 6800 5400
+F 0 "SW48" H 6800 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 5400 50  0001 C CNN
+F 3 "" H 6800 5400 50  0000 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5ED9196D
+P 6300 5550
+F 0 "D47" V 6346 5471 50  0000 R CNN
+F 1 "D" V 6255 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 5550 50  0001 C CNN
+F 3 "~" H 6300 5550 50  0001 C CNN
+	1    6300 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW47
+U 1 1 5ED91973
+P 6000 5400
+F 0 "SW47" H 6000 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 5400 50  0001 C CNN
+F 3 "" H 6000 5400 50  0000 C CNN
+	1    6000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5ED9197D
+P 5500 5550
+F 0 "D46" V 5546 5471 50  0000 R CNN
+F 1 "D" V 5455 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 5550 50  0001 C CNN
+F 3 "~" H 5500 5550 50  0001 C CNN
+	1    5500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW46
+U 1 1 5ED91983
+P 5200 5400
+F 0 "SW46" H 5200 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 5400 50  0001 C CNN
+F 3 "" H 5200 5400 50  0000 C CNN
+	1    5200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5ED91989
+P 4700 5550
+F 0 "D45" V 4746 5471 50  0000 R CNN
+F 1 "D" V 4655 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 5550 50  0001 C CNN
+F 3 "~" H 4700 5550 50  0001 C CNN
+	1    4700 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW45
+U 1 1 5ED9198F
+P 4400 5400
+F 0 "SW45" H 4400 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0000 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5ED91995
+P 3900 5550
+F 0 "D44" V 3946 5471 50  0000 R CNN
+F 1 "D" V 3855 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 5550 50  0001 C CNN
+F 3 "~" H 3900 5550 50  0001 C CNN
+	1    3900 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW44
+U 1 1 5ED9199B
+P 3600 5400
+F 0 "SW44" H 3600 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 5400 50  0001 C CNN
+F 3 "" H 3600 5400 50  0000 C CNN
+	1    3600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5ED919A6
+P 3100 5550
+F 0 "D43" V 3146 5471 50  0000 R CNN
+F 1 "D" V 3055 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 5550 50  0001 C CNN
+F 3 "~" H 3100 5550 50  0001 C CNN
+	1    3100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 5ED919AC
+P 2800 5400
+F 0 "SW43" H 2800 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 5400 50  0001 C CNN
+F 3 "" H 2800 5400 50  0000 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5ED919B2
+P 2300 5550
+F 0 "D42" V 2346 5471 50  0000 R CNN
+F 1 "D" V 2255 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 5550 50  0001 C CNN
+F 3 "~" H 2300 5550 50  0001 C CNN
+	1    2300 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 5ED919B8
+P 2000 5400
+F 0 "SW42" H 2000 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 5400 50  0001 C CNN
+F 3 "" H 2000 5400 50  0000 C CNN
+	1    2000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5ED919C1
+P 1500 5550
+F 0 "D41" V 1546 5471 50  0000 R CNN
+F 1 "D" V 1455 5471 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 5550 50  0001 C CNN
+F 3 "~" H 1500 5550 50  0001 C CNN
+	1    1500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5ED919C7
+P 1200 5400
+F 0 "SW41" H 1200 5655 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 5564 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 5400 50  0001 C CNN
+F 3 "" H 1200 5400 50  0000 C CNN
+	1    1200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 5ED9A6B1
+P 7100 6200
+F 0 "D56" V 7146 6121 50  0000 R CNN
+F 1 "D" V 7055 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 7100 6200 50  0001 C CNN
+F 3 "~" H 7100 6200 50  0001 C CNN
+	1    7100 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW56
+U 1 1 5ED9A6B7
+P 6800 6050
+F 0 "SW56" H 6800 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6800 6050 50  0001 C CNN
+F 3 "" H 6800 6050 50  0000 C CNN
+	1    6800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 5ED9A6BD
+P 6300 6200
+F 0 "D55" V 6346 6121 50  0000 R CNN
+F 1 "D" V 6255 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 6300 6200 50  0001 C CNN
+F 3 "~" H 6300 6200 50  0001 C CNN
+	1    6300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW55
+U 1 1 5ED9A6C3
+P 6000 6050
+F 0 "SW55" H 6000 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 6000 6050 50  0001 C CNN
+F 3 "" H 6000 6050 50  0000 C CNN
+	1    6000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 5ED9A6CD
+P 5500 6200
+F 0 "D54" V 5546 6121 50  0000 R CNN
+F 1 "D" V 5455 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 5500 6200 50  0001 C CNN
+F 3 "~" H 5500 6200 50  0001 C CNN
+	1    5500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW54
+U 1 1 5ED9A6D3
+P 5200 6050
+F 0 "SW54" H 5200 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 5200 6050 50  0001 C CNN
+F 3 "" H 5200 6050 50  0000 C CNN
+	1    5200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 5ED9A6D9
+P 4700 6200
+F 0 "D53" V 4746 6121 50  0000 R CNN
+F 1 "D" V 4655 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 4700 6200 50  0001 C CNN
+F 3 "~" H 4700 6200 50  0001 C CNN
+	1    4700 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW53
+U 1 1 5ED9A6DF
+P 4400 6050
+F 0 "SW53" H 4400 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 4400 6050 50  0001 C CNN
+F 3 "" H 4400 6050 50  0000 C CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5ED9A6E5
+P 3900 6200
+F 0 "D52" V 3946 6121 50  0000 R CNN
+F 1 "D" V 3855 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3900 6200 50  0001 C CNN
+F 3 "~" H 3900 6200 50  0001 C CNN
+	1    3900 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW52
+U 1 1 5ED9A6EB
+P 3600 6050
+F 0 "SW52" H 3600 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 3600 6050 50  0001 C CNN
+F 3 "" H 3600 6050 50  0000 C CNN
+	1    3600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5ED9A6F6
+P 3100 6200
+F 0 "D51" V 3146 6121 50  0000 R CNN
+F 1 "D" V 3055 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 3100 6200 50  0001 C CNN
+F 3 "~" H 3100 6200 50  0001 C CNN
+	1    3100 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW51
+U 1 1 5ED9A6FC
+P 2800 6050
+F 0 "SW51" H 2800 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2800 6050 50  0001 C CNN
+F 3 "" H 2800 6050 50  0000 C CNN
+	1    2800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5ED9A702
+P 2300 6200
+F 0 "D50" V 2346 6121 50  0000 R CNN
+F 1 "D" V 2255 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 2300 6200 50  0001 C CNN
+F 3 "~" H 2300 6200 50  0001 C CNN
+	1    2300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW50
+U 1 1 5ED9A708
+P 2000 6050
+F 0 "SW50" H 2000 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 2000 6050 50  0001 C CNN
+F 3 "" H 2000 6050 50  0000 C CNN
+	1    2000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5ED9A711
+P 1500 6200
+F 0 "D49" V 1546 6121 50  0000 R CNN
+F 1 "D" V 1455 6121 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 1500 6200 50  0001 C CNN
+F 3 "~" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW49
+U 1 1 5ED9A717
+P 1200 6050
+F 0 "SW49" H 1200 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 6214 50  0000 C CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_CherryMX_NoDioade" H 1200 6050 50  0001 C CNN
+F 3 "" H 1200 6050 50  0000 C CNN
+	1    1200 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 1850 1    50   Input ~ 0
+col7
+Text GLabel 4100 1850 1    50   Input ~ 0
+col4
+Text GLabel 4900 1850 1    50   Input ~ 0
+col5
+Text GLabel 5700 1850 1    50   Input ~ 0
+col6
+Text GLabel 2500 1850 1    50   Input ~ 0
+col2
+Text GLabel 3300 1850 1    50   Input ~ 0
+col3
+Text GLabel 900  1850 1    50   Input ~ 0
+col0
+Text GLabel 1700 1850 1    50   Input ~ 0
+col1
+Wire Wire Line
+	900  1850 900  2150
+Connection ~ 900  2150
+Wire Wire Line
+	900  2150 900  2800
+Connection ~ 900  2800
+Wire Wire Line
+	900  2800 900  3450
+Connection ~ 900  3450
+Wire Wire Line
+	900  3450 900  4100
+Connection ~ 900  4100
+Wire Wire Line
+	900  4100 900  4750
+Connection ~ 900  4750
+Wire Wire Line
+	900  4750 900  5400
+Connection ~ 900  5400
+Wire Wire Line
+	900  5400 900  6050
+Wire Wire Line
+	1700 1850 1700 2150
+Connection ~ 1700 2150
+Wire Wire Line
+	1700 2150 1700 2800
+Connection ~ 1700 2800
+Wire Wire Line
+	1700 2800 1700 3450
+Connection ~ 1700 3450
+Wire Wire Line
+	1700 3450 1700 4100
+Connection ~ 1700 4100
+Wire Wire Line
+	1700 4100 1700 4750
+Connection ~ 1700 4750
+Wire Wire Line
+	1700 4750 1700 5400
+Connection ~ 1700 5400
+Wire Wire Line
+	1700 5400 1700 6050
+Wire Wire Line
+	2500 1850 2500 2150
+Connection ~ 2500 2150
+Wire Wire Line
+	2500 2150 2500 2800
+Connection ~ 2500 2800
+Wire Wire Line
+	2500 2800 2500 3450
+Connection ~ 2500 3450
+Wire Wire Line
+	2500 3450 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 2500 4750
+Connection ~ 2500 4750
+Wire Wire Line
+	2500 4750 2500 5400
+Connection ~ 2500 5400
+Wire Wire Line
+	2500 5400 2500 6050
+Wire Wire Line
+	3300 1850 3300 2150
+Connection ~ 3300 2150
+Wire Wire Line
+	3300 2150 3300 2800
+Connection ~ 3300 2800
+Wire Wire Line
+	3300 2800 3300 3450
+Connection ~ 3300 3450
+Wire Wire Line
+	3300 3450 3300 4100
+Connection ~ 3300 4100
+Wire Wire Line
+	3300 4100 3300 4750
+Connection ~ 3300 4750
+Wire Wire Line
+	3300 4750 3300 5400
+Connection ~ 3300 5400
+Wire Wire Line
+	3300 5400 3300 6050
+Wire Wire Line
+	4100 1850 4100 2150
+Connection ~ 4100 2150
+Wire Wire Line
+	4100 2150 4100 2800
+Connection ~ 4100 2800
+Wire Wire Line
+	4100 2800 4100 3450
+Connection ~ 4100 3450
+Wire Wire Line
+	4100 3450 4100 4100
+Connection ~ 4100 4100
+Wire Wire Line
+	4100 4100 4100 4750
+Connection ~ 4100 4750
+Wire Wire Line
+	4100 4750 4100 5400
+Connection ~ 4100 5400
+Wire Wire Line
+	4100 5400 4100 6050
+Wire Wire Line
+	4900 1850 4900 2150
+Connection ~ 4900 2150
+Wire Wire Line
+	4900 2150 4900 2800
+Connection ~ 4900 2800
+Wire Wire Line
+	4900 2800 4900 3450
+Connection ~ 4900 3450
+Wire Wire Line
+	4900 3450 4900 4100
+Connection ~ 4900 4100
+Wire Wire Line
+	4900 4100 4900 4750
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 4900 5400
+Connection ~ 4900 5400
+Wire Wire Line
+	4900 5400 4900 6050
+Wire Wire Line
+	5700 1850 5700 2150
+Connection ~ 5700 2150
+Wire Wire Line
+	5700 2150 5700 2800
+Connection ~ 5700 2800
+Wire Wire Line
+	5700 2800 5700 3450
+Connection ~ 5700 3450
+Wire Wire Line
+	5700 3450 5700 4100
+Connection ~ 5700 4100
+Wire Wire Line
+	5700 4100 5700 4750
+Connection ~ 5700 4750
+Wire Wire Line
+	5700 4750 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5400 5700 6050
+Wire Wire Line
+	6500 1850 6500 2150
+Connection ~ 6500 2150
+Wire Wire Line
+	6500 2150 6500 2800
+Connection ~ 6500 2800
+Wire Wire Line
+	6500 2800 6500 3450
+Connection ~ 6500 3450
+Wire Wire Line
+	6500 3450 6500 4100
+Connection ~ 6500 4100
+Wire Wire Line
+	6500 4100 6500 4750
+Connection ~ 6500 4750
+Wire Wire Line
+	6500 4750 6500 5400
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5400 6500 6050
+Wire Wire Line
+	750  2450 1500 2450
+Connection ~ 1500 2450
+Wire Wire Line
+	1500 2450 2300 2450
+Connection ~ 2300 2450
+Wire Wire Line
+	2300 2450 3100 2450
+Connection ~ 3100 2450
+Wire Wire Line
+	3100 2450 3900 2450
+Connection ~ 3900 2450
+Wire Wire Line
+	3900 2450 4700 2450
+Connection ~ 4700 2450
+Wire Wire Line
+	4700 2450 5500 2450
+Connection ~ 5500 2450
+Wire Wire Line
+	5500 2450 6300 2450
+Connection ~ 6300 2450
+Wire Wire Line
+	6300 2450 7100 2450
+Wire Wire Line
+	7100 3100 6300 3100
+Connection ~ 1500 3100
+Wire Wire Line
+	1500 3100 750  3100
+Connection ~ 2300 3100
+Wire Wire Line
+	2300 3100 1500 3100
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 3100 2300 3100
+Connection ~ 3900 3100
+Wire Wire Line
+	3900 3100 3100 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	4700 3100 3900 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 3100 4700 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 3100 5500 3100
+Wire Wire Line
+	750  3750 1500 3750
+Connection ~ 1500 3750
+Wire Wire Line
+	1500 3750 2300 3750
+Connection ~ 2300 3750
+Wire Wire Line
+	2300 3750 3100 3750
+Connection ~ 3100 3750
+Wire Wire Line
+	3100 3750 3900 3750
+Connection ~ 3900 3750
+Wire Wire Line
+	3900 3750 4700 3750
+Connection ~ 4700 3750
+Wire Wire Line
+	4700 3750 5500 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	5500 3750 6300 3750
+Connection ~ 6300 3750
+Wire Wire Line
+	6300 3750 7100 3750
+Wire Wire Line
+	7100 4400 6300 4400
+Connection ~ 1500 4400
+Wire Wire Line
+	1500 4400 750  4400
+Connection ~ 2300 4400
+Wire Wire Line
+	2300 4400 1500 4400
+Connection ~ 3100 4400
+Wire Wire Line
+	3100 4400 2300 4400
+Connection ~ 3900 4400
+Wire Wire Line
+	3900 4400 3100 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	4700 4400 3900 4400
+Connection ~ 5500 4400
+Wire Wire Line
+	5500 4400 4700 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	6300 4400 5500 4400
+Wire Wire Line
+	750  5050 1500 5050
+Connection ~ 1500 5050
+Wire Wire Line
+	1500 5050 2300 5050
+Connection ~ 2300 5050
+Wire Wire Line
+	2300 5050 3100 5050
+Connection ~ 3100 5050
+Wire Wire Line
+	3100 5050 3900 5050
+Connection ~ 3900 5050
+Wire Wire Line
+	3900 5050 4700 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4700 5050 5500 5050
+Connection ~ 5500 5050
+Wire Wire Line
+	5500 5050 6300 5050
+Connection ~ 6300 5050
+Wire Wire Line
+	6300 5050 7100 5050
+Wire Wire Line
+	7100 5700 6300 5700
+Connection ~ 1500 5700
+Wire Wire Line
+	1500 5700 750  5700
+Connection ~ 2300 5700
+Wire Wire Line
+	2300 5700 1500 5700
+Connection ~ 3100 5700
+Wire Wire Line
+	3100 5700 2300 5700
+Connection ~ 3900 5700
+Wire Wire Line
+	3900 5700 3100 5700
+Connection ~ 4700 5700
+Wire Wire Line
+	4700 5700 3900 5700
+Connection ~ 5500 5700
+Wire Wire Line
+	5500 5700 4700 5700
+Connection ~ 6300 5700
+Wire Wire Line
+	6300 5700 5500 5700
+Wire Wire Line
+	750  6350 1500 6350
+Connection ~ 1500 6350
+Wire Wire Line
+	1500 6350 2300 6350
+Connection ~ 2300 6350
+Wire Wire Line
+	2300 6350 3100 6350
+Connection ~ 3100 6350
+Wire Wire Line
+	3100 6350 3900 6350
+Connection ~ 3900 6350
+Wire Wire Line
+	3900 6350 4700 6350
+Connection ~ 4700 6350
+Wire Wire Line
+	4700 6350 5500 6350
+Connection ~ 5500 6350
+Wire Wire Line
+	5500 6350 6300 6350
+Connection ~ 6300 6350
+Wire Wire Line
+	6300 6350 7100 6350
+Text GLabel 8450 1600 0    50   Input ~ 0
+RX1
+Text GLabel 8000 2600 2    50   Input ~ 0
+B5
+Text GLabel 8000 2500 2    50   Input ~ 0
+B4
+Text GLabel 8000 2400 2    50   Input ~ 0
+E6
+Wire Wire Line
+	7950 2600 8000 2600
+Wire Wire Line
+	7950 2500 8000 2500
+Wire Wire Line
+	7950 2400 8000 2400
+Text GLabel 7950 2400 0    50   Input ~ 0
+row3
+Text GLabel 7950 2500 0    50   Input ~ 0
+row4
+Text GLabel 7950 2600 0    50   Input ~ 0
+row5
+Wire Wire Line
+	7950 1500 8000 1500
+Text GLabel 7950 1500 0    50   Input ~ 0
+col7
+Text GLabel 8000 1500 2    50   Input ~ 0
+TX0
+Wire Wire Line
+	7650 1700 7650 1800
+Connection ~ 7650 1800
+$Comp
+L power:GND #PWR0104
+U 1 1 5E37387C
+P 7650 1800
+F 0 "#PWR0104" H 7650 1550 50  0001 C CNN
+F 1 "GND" H 7655 1627 50  0000 C CNN
+F 2 "" H 7650 1800 50  0001 C CNN
+F 3 "" H 7650 1800 50  0001 C CNN
+	1    7650 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 1800 2    50   Input ~ 0
+GND
+Text GLabel 8000 1700 2    50   Input ~ 0
+GND
+Wire Wire Line
+	7650 1700 8000 1700
+Wire Wire Line
+	7650 1800 8000 1800
+Wire Wire Line
+	7950 2300 8000 2300
+Wire Wire Line
+	7950 2200 8000 2200
+Wire Wire Line
+	7950 2100 8000 2100
+Text GLabel 8000 2100 2    50   Input ~ 0
+D4
+Text GLabel 8000 2200 2    50   Input ~ 0
+C6
+Text GLabel 8000 2300 2    50   Input ~ 0
+D7
+Text GLabel 8450 1700 0    50   Input ~ 0
+GND
+Text GLabel 8450 1800 0    50   Input ~ 0
+GND
+Text GLabel 8450 2600 0    50   Input ~ 0
+B5
+Text GLabel 8450 2500 0    50   Input ~ 0
+B4
+Text GLabel 8450 2400 0    50   Input ~ 0
+E6
+Text GLabel 8450 2300 0    50   Input ~ 0
+D7
+Text GLabel 8450 2200 0    50   Input ~ 0
+C6
+Text GLabel 8450 2100 0    50   Input ~ 0
+D4
+Text GLabel 8450 2000 0    50   Input ~ 0
+D0_SCL
+Text GLabel 8450 1900 0    50   Input ~ 0
+D1_SDA
+Text GLabel 8450 1500 0    50   Input ~ 0
+TX0
+Text GLabel 7950 2100 0    50   Input ~ 0
+row0
+Text GLabel 7950 2200 0    50   Input ~ 0
+row1
+Text GLabel 7950 2300 0    50   Input ~ 0
+row2
+Text GLabel 8450 1400 0    50   Input ~ 0
+GND
+$Comp
+L Ipomoea-library:ProMicro(BMP) U1
+U 1 1 5E373578
+P 9200 2250
+F 0 "U1" H 9200 3387 60  0000 C CNN
+F 1 "ProMicro(BMP)" H 9200 3281 60  0000 C CNN
+F 2 "Ipomoea-library:ProMicro(BMP)" H 9300 1200 60  0001 C CNN
+F 3 "" H 9300 1200 60  0000 C CNN
+	1    9200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1400 8500 1400
+Wire Wire Line
+	8450 1500 8500 1500
+Wire Wire Line
+	8450 1600 8500 1600
+Wire Wire Line
+	8450 1700 8500 1700
+Wire Wire Line
+	8450 1800 8500 1800
+Wire Wire Line
+	8450 2000 8500 2000
+Wire Wire Line
+	8450 1900 8500 1900
+Wire Wire Line
+	8450 2200 8500 2200
+Wire Wire Line
+	8450 2100 8500 2100
+Wire Wire Line
+	8450 2300 8500 2300
+Wire Wire Line
+	8450 2400 8500 2400
+Wire Wire Line
+	8450 2500 8500 2500
+Wire Wire Line
+	8450 2600 8500 2600
+$Comp
+L Device:LED D57
+U 1 1 5EDC2B85
+P 9650 6200
+F 0 "D57" H 9643 6416 50  0000 C CNN
+F 1 "LED" H 9643 6325 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9650 6200 50  0001 C CNN
+F 3 "~" H 9650 6200 50  0001 C CNN
+	1    9650 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EDCD3FF
+P 9350 6200
+F 0 "#PWR0105" H 9350 5950 50  0001 C CNN
+F 1 "GND" H 9355 6027 50  0000 C CNN
+F 2 "" H 9350 6200 50  0001 C CNN
+F 3 "" H 9350 6200 50  0001 C CNN
+	1    9350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 6200 9500 6200
+Text GLabel 8000 1600 2    50   Input ~ 0
+RX1
+Wire Wire Line
+	7950 1600 8000 1600
+Text GLabel 7950 1600 0    50   Input ~ 0
+LED
+Text GLabel 10850 6200 2    50   Input ~ 0
+LED
+Text GLabel 9750 5750 2    50   Input ~ 0
+RX1
+Wire Wire Line
+	9700 5750 9750 5750
+$Comp
+L Device:Jumper JP2
+U 1 1 5F145848
+P 9700 5450
+F 0 "JP2" H 9700 5714 50  0000 C CNN
+F 1 "Jumper" H 9700 5623 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper" H 9700 5450 50  0001 C CNN
+F 3 "~" H 9700 5450 50  0001 C CNN
+	1    9700 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper JP3
+U 1 1 5F1A63CB
+P 10500 6200
+F 0 "JP3" H 10500 6464 50  0000 C CNN
+F 1 "Jumper" H 10500 6373 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper" H 10500 6200 50  0001 C CNN
+F 3 "~" H 10500 6200 50  0001 C CNN
+	1    10500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5EDC573F
+P 10000 6200
+F 0 "R3" V 9900 6200 50  0000 C CNN
+F 1 "R" V 10000 6200 50  0000 C CNN
+F 2 "Ipomoea-library:R" V 9930 6200 50  0001 C CNN
+F 3 "~" H 10000 6200 50  0001 C CNN
+	1    10000 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 6200 10200 6200
+Wire Wire Line
+	10800 6200 10850 6200
+Wire Wire Line
+	9800 6200 9850 6200
+Wire Wire Line
+	9350 5150 9700 5150
+Connection ~ 9700 5150
+Wire Wire Line
+	9700 5150 9850 5150
+Wire Wire Line
+	11850 2350 11750 2350
+Text GLabel 11750 2350 0    50   Input ~ 0
+GND
+Text GLabel 12150 1650 0    50   Input ~ 0
+BAT
+NoConn ~ 12250 2450
+$Comp
+L Switch:SW_DPDT_x2 SW902
+U 1 1 5F22283A
+P 12050 2350
+F 0 "SW902" H 12050 2635 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 12050 2544 50  0000 C CNN
+F 2 "Ipomoea-library:SlideSwitch" H 12050 2350 50  0001 C CNN
+F 3 "~" H 12050 2350 50  0001 C CNN
+	1    12050 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14700 2500
+NoConn ~ 14900 2500
+NoConn ~ 14500 2500
+NoConn ~ 14300 2500
+NoConn ~ 14100 2500
+NoConn ~ 13900 2500
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B16
+U 1 1 5EEF6AD2
+P 14900 2300
+F 0 "JUC_B16" H 14980 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 14980 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14900 2300 50  0001 C CNN
+F 3 "~" H 14900 2300 50  0001 C CNN
+	1    14900 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B15
+U 1 1 5EEF6ACC
+P 14700 2300
+F 0 "JUC_B15" H 14780 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 2300 50  0001 C CNN
+F 3 "~" H 14700 2300 50  0001 C CNN
+	1    14700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B14
+U 1 1 5EEF6AC6
+P 14500 2300
+F 0 "JUC_B14" H 14580 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 2300 50  0001 C CNN
+F 3 "~" H 14500 2300 50  0001 C CNN
+	1    14500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B13
+U 1 1 5EEF6AC0
+P 14300 2300
+F 0 "JUC_B13" H 14380 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 2300 50  0001 C CNN
+F 3 "~" H 14300 2300 50  0001 C CNN
+	1    14300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B12
+U 1 1 5EEF6ABA
+P 14100 2300
+F 0 "JUC_B12" H 14180 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 2300 50  0001 C CNN
+F 3 "~" H 14100 2300 50  0001 C CNN
+	1    14100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B11
+U 1 1 5EEF6AB4
+P 13900 2300
+F 0 "JUC_B11" H 13980 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 2300 50  0001 C CNN
+F 3 "~" H 13900 2300 50  0001 C CNN
+	1    13900 2300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 15700 1700
+NoConn ~ 15500 1700
+NoConn ~ 15300 1700
+NoConn ~ 15100 1700
+NoConn ~ 14700 1700
+NoConn ~ 14900 1700
+NoConn ~ 14500 1700
+NoConn ~ 14300 1700
+NoConn ~ 14100 1700
+NoConn ~ 13900 1700
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B10
+U 1 1 5F2FC82F
+P 15700 1500
+F 0 "JUC_B10" H 15780 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 15780 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15700 1500 50  0001 C CNN
+F 3 "~" H 15700 1500 50  0001 C CNN
+	1    15700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B9
+U 1 1 5F2FC829
+P 15500 1500
+F 0 "JUC_B9" H 15580 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 15580 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15500 1500 50  0001 C CNN
+F 3 "~" H 15500 1500 50  0001 C CNN
+	1    15500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B8
+U 1 1 5F2FC823
+P 15300 1500
+F 0 "JUC_B8" H 15380 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 15380 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15300 1500 50  0001 C CNN
+F 3 "~" H 15300 1500 50  0001 C CNN
+	1    15300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B7
+U 1 1 5F2FC81D
+P 15100 1500
+F 0 "JUC_B7" H 15180 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 15180 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15100 1500 50  0001 C CNN
+F 3 "~" H 15100 1500 50  0001 C CNN
+	1    15100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B6
+U 1 1 5F2F14A7
+P 14900 1500
+F 0 "JUC_B6" H 14980 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 14980 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14900 1500 50  0001 C CNN
+F 3 "~" H 14900 1500 50  0001 C CNN
+	1    14900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B5
+U 1 1 5F2E7D45
+P 14700 1500
+F 0 "JUC_B5" H 14780 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 1500 50  0001 C CNN
+F 3 "~" H 14700 1500 50  0001 C CNN
+	1    14700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B4
+U 1 1 5F2DE5AA
+P 14500 1500
+F 0 "JUC_B4" H 14580 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 1500 50  0001 C CNN
+F 3 "~" H 14500 1500 50  0001 C CNN
+	1    14500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B3
+U 1 1 5F2D4DB4
+P 14300 1500
+F 0 "JUC_B3" H 14380 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 1500 50  0001 C CNN
+F 3 "~" H 14300 1500 50  0001 C CNN
+	1    14300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B2
+U 1 1 5F2CB5BC
+P 14100 1500
+F 0 "JUC_B2" H 14180 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 1500 50  0001 C CNN
+F 3 "~" H 14100 1500 50  0001 C CNN
+	1    14100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B1
+U 1 1 5F2C19AC
+P 13900 1500
+F 0 "JUC_B1" H 13980 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 1451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 1500 50  0001 C CNN
+F 3 "~" H 13900 1500 50  0001 C CNN
+	1    13900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ipomoea-library:ProMicro(BMP)_THROUGH_HOLE U2
+U 1 1 5E3A585C
+P 9200 3950
+F 0 "U2" H 9200 5087 60  0000 C CNN
+F 1 "ProMicro(BMP)_THROUGH_HOLE" H 9200 4981 60  0000 C CNN
+F 2 "Ipomoea-library:ProMicro(BMP)_THROUGH_HOLE" H 9300 2900 60  0001 C CNN
+F 3 "" H 9300 2900 60  0000 C CNN
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 1650 12600 1650
+Wire Wire Line
+	12250 2250 12600 2250
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B20
+U 1 1 5F675017
+P 15700 2300
+F 0 "JUC_B20" H 15780 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 15780 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15700 2300 50  0001 C CNN
+F 3 "~" H 15700 2300 50  0001 C CNN
+	1    15700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B19
+U 1 1 5F67501D
+P 15500 2300
+F 0 "JUC_B19" H 15580 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 15580 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15500 2300 50  0001 C CNN
+F 3 "~" H 15500 2300 50  0001 C CNN
+	1    15500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B18
+U 1 1 5F675023
+P 15300 2300
+F 0 "JUC_B18" H 15380 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 15380 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15300 2300 50  0001 C CNN
+F 3 "~" H 15300 2300 50  0001 C CNN
+	1    15300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B17
+U 1 1 5F675029
+P 15100 2300
+F 0 "JUC_B17" H 15180 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 15180 2251 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15100 2300 50  0001 C CNN
+F 3 "~" H 15100 2300 50  0001 C CNN
+	1    15100 2300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14700 3300
+NoConn ~ 14900 3300
+NoConn ~ 14500 3300
+NoConn ~ 14300 3300
+NoConn ~ 14100 3300
+NoConn ~ 13900 3300
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B26
+U 1 1 5F6838A8
+P 14900 3100
+F 0 "JUC_B26" H 14980 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 14980 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14900 3100 50  0001 C CNN
+F 3 "~" H 14900 3100 50  0001 C CNN
+	1    14900 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B25
+U 1 1 5F6838AE
+P 14700 3100
+F 0 "JUC_B25" H 14780 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 3100 50  0001 C CNN
+F 3 "~" H 14700 3100 50  0001 C CNN
+	1    14700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B24
+U 1 1 5F6838B4
+P 14500 3100
+F 0 "JUC_B24" H 14580 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 3100 50  0001 C CNN
+F 3 "~" H 14500 3100 50  0001 C CNN
+	1    14500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B23
+U 1 1 5F6838BA
+P 14300 3100
+F 0 "JUC_B23" H 14380 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 3100 50  0001 C CNN
+F 3 "~" H 14300 3100 50  0001 C CNN
+	1    14300 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B22
+U 1 1 5F6838C0
+P 14100 3100
+F 0 "JUC_B22" H 14180 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 3100 50  0001 C CNN
+F 3 "~" H 14100 3100 50  0001 C CNN
+	1    14100 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B21
+U 1 1 5F6838C6
+P 13900 3100
+F 0 "JUC_B21" H 13980 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 3100 50  0001 C CNN
+F 3 "~" H 13900 3100 50  0001 C CNN
+	1    13900 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B30
+U 1 1 5F6838CC
+P 15700 3100
+F 0 "JUC_B30" H 15780 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 15780 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15700 3100 50  0001 C CNN
+F 3 "~" H 15700 3100 50  0001 C CNN
+	1    15700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B29
+U 1 1 5F6838D2
+P 15500 3100
+F 0 "JUC_B29" H 15580 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 15580 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15500 3100 50  0001 C CNN
+F 3 "~" H 15500 3100 50  0001 C CNN
+	1    15500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B28
+U 1 1 5F6838D8
+P 15300 3100
+F 0 "JUC_B28" H 15380 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 15380 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15300 3100 50  0001 C CNN
+F 3 "~" H 15300 3100 50  0001 C CNN
+	1    15300 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B27
+U 1 1 5F6838DE
+P 15100 3100
+F 0 "JUC_B27" H 15180 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 15180 3051 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15100 3100 50  0001 C CNN
+F 3 "~" H 15100 3100 50  0001 C CNN
+	1    15100 3100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14700 4100
+NoConn ~ 14900 4100
+NoConn ~ 14500 4100
+NoConn ~ 14300 4100
+NoConn ~ 14100 4100
+NoConn ~ 13900 4100
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B36
+U 1 1 5F6DA29F
+P 14900 3900
+F 0 "JUC_B36" H 14980 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 14980 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14900 3900 50  0001 C CNN
+F 3 "~" H 14900 3900 50  0001 C CNN
+	1    14900 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B35
+U 1 1 5F6DA2A5
+P 14700 3900
+F 0 "JUC_B35" H 14780 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 3900 50  0001 C CNN
+F 3 "~" H 14700 3900 50  0001 C CNN
+	1    14700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B34
+U 1 1 5F6DA2AB
+P 14500 3900
+F 0 "JUC_B34" H 14580 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 3900 50  0001 C CNN
+F 3 "~" H 14500 3900 50  0001 C CNN
+	1    14500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B33
+U 1 1 5F6DA2B1
+P 14300 3900
+F 0 "JUC_B33" H 14380 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 3900 50  0001 C CNN
+F 3 "~" H 14300 3900 50  0001 C CNN
+	1    14300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B32
+U 1 1 5F6DA2B7
+P 14100 3900
+F 0 "JUC_B32" H 14180 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 3900 50  0001 C CNN
+F 3 "~" H 14100 3900 50  0001 C CNN
+	1    14100 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B31
+U 1 1 5F6DA2BD
+P 13900 3900
+F 0 "JUC_B31" H 13980 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 3900 50  0001 C CNN
+F 3 "~" H 13900 3900 50  0001 C CNN
+	1    13900 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B40
+U 1 1 5F6DA2C3
+P 15700 3900
+F 0 "JUC_B40" H 15780 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 15780 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15700 3900 50  0001 C CNN
+F 3 "~" H 15700 3900 50  0001 C CNN
+	1    15700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B39
+U 1 1 5F6DA2C9
+P 15500 3900
+F 0 "JUC_B39" H 15580 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 15580 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15500 3900 50  0001 C CNN
+F 3 "~" H 15500 3900 50  0001 C CNN
+	1    15500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B38
+U 1 1 5F6DA2CF
+P 15300 3900
+F 0 "JUC_B38" H 15380 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 15380 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15300 3900 50  0001 C CNN
+F 3 "~" H 15300 3900 50  0001 C CNN
+	1    15300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B37
+U 1 1 5F6DA2D5
+P 15100 3900
+F 0 "JUC_B37" H 15180 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 15180 3851 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15100 3900 50  0001 C CNN
+F 3 "~" H 15100 3900 50  0001 C CNN
+	1    15100 3900
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14700 4900
+NoConn ~ 14900 4900
+NoConn ~ 14500 4900
+NoConn ~ 14300 4900
+NoConn ~ 14100 4900
+NoConn ~ 13900 4900
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B46
+U 1 1 5F6E716A
+P 14900 4700
+F 0 "JUC_B46" H 14980 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 14980 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14900 4700 50  0001 C CNN
+F 3 "~" H 14900 4700 50  0001 C CNN
+	1    14900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B45
+U 1 1 5F6E7170
+P 14700 4700
+F 0 "JUC_B45" H 14780 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 4700 50  0001 C CNN
+F 3 "~" H 14700 4700 50  0001 C CNN
+	1    14700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B44
+U 1 1 5F6E7176
+P 14500 4700
+F 0 "JUC_B44" H 14580 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 4700 50  0001 C CNN
+F 3 "~" H 14500 4700 50  0001 C CNN
+	1    14500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B43
+U 1 1 5F6E717C
+P 14300 4700
+F 0 "JUC_B43" H 14380 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 4700 50  0001 C CNN
+F 3 "~" H 14300 4700 50  0001 C CNN
+	1    14300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B42
+U 1 1 5F6E7182
+P 14100 4700
+F 0 "JUC_B42" H 14180 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 4700 50  0001 C CNN
+F 3 "~" H 14100 4700 50  0001 C CNN
+	1    14100 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B41
+U 1 1 5F6E7188
+P 13900 4700
+F 0 "JUC_B41" H 13980 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 4700 50  0001 C CNN
+F 3 "~" H 13900 4700 50  0001 C CNN
+	1    13900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B50
+U 1 1 5F6E718E
+P 15700 4700
+F 0 "JUC_B50" H 15780 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 15780 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15700 4700 50  0001 C CNN
+F 3 "~" H 15700 4700 50  0001 C CNN
+	1    15700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B49
+U 1 1 5F6E7194
+P 15500 4700
+F 0 "JUC_B49" H 15580 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 15580 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15500 4700 50  0001 C CNN
+F 3 "~" H 15500 4700 50  0001 C CNN
+	1    15500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B48
+U 1 1 5F6E719A
+P 15300 4700
+F 0 "JUC_B48" H 15380 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 15380 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15300 4700 50  0001 C CNN
+F 3 "~" H 15300 4700 50  0001 C CNN
+	1    15300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B47
+U 1 1 5F6E71A0
+P 15100 4700
+F 0 "JUC_B47" H 15180 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 15180 4651 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 15100 4700 50  0001 C CNN
+F 3 "~" H 15100 4700 50  0001 C CNN
+	1    15100 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B52
+U 1 1 5F6FC861
+P 14100 5500
+F 0 "JUC_B52" H 14180 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 14180 5451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14100 5500 50  0001 C CNN
+F 3 "~" H 14100 5500 50  0001 C CNN
+	1    14100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B51
+U 1 1 5F6FC867
+P 13900 5500
+F 0 "JUC_B51" H 13980 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 13980 5451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 13900 5500 50  0001 C CNN
+F 3 "~" H 13900 5500 50  0001 C CNN
+	1    13900 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B54
+U 1 1 5F729D21
+P 14500 5500
+F 0 "JUC_B54" H 14580 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 14580 5451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14500 5500 50  0001 C CNN
+F 3 "~" H 14500 5500 50  0001 C CNN
+	1    14500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B53
+U 1 1 5F729D27
+P 14300 5500
+F 0 "JUC_B53" H 14380 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 14380 5451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14300 5500 50  0001 C CNN
+F 3 "~" H 14300 5500 50  0001 C CNN
+	1    14300 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JUC_B55
+U 1 1 5F733EC0
+P 14700 5500
+F 0 "JUC_B55" H 14780 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 14780 5451 50  0000 L CNN
+F 2 "Ipomoea-library:Ipomoea-quamoclit_Base_TH_2_Cx1" H 14700 5500 50  0001 C CNN
+F 3 "~" H 14700 5500 50  0001 C CNN
+	1    14700 5500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 15100 2500
+NoConn ~ 15300 2500
+NoConn ~ 15500 2500
+NoConn ~ 15700 2500
+NoConn ~ 15100 3300
+NoConn ~ 15300 3300
+NoConn ~ 15500 3300
+NoConn ~ 15700 3300
+NoConn ~ 15700 4100
+NoConn ~ 15500 4100
+NoConn ~ 15300 4100
+NoConn ~ 15100 4100
+NoConn ~ 15100 4900
+NoConn ~ 15300 4900
+NoConn ~ 15500 4900
+NoConn ~ 15700 4900
+NoConn ~ 13900 5700
+NoConn ~ 14100 5700
+NoConn ~ 14300 5700
+NoConn ~ 14500 5700
+NoConn ~ 14700 5700
+$Comp
+L Connector_Generic:Conn_01x02 JUC_A1
+U 1 1 5F8383B4
+P 12800 1650
+F 0 "JUC_A1" H 12880 1642 50  0000 L CNN
+F 1 "Conn_01x02" H 12880 1551 50  0000 L CNN
+F 2 "Ipomoea-library:BH-411-4P24" H 12800 1650 50  0001 C CNN
+F 3 "~" H 12800 1650 50  0001 C CNN
+	1    12800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JUC_A2
+U 1 1 5F857108
+P 12800 2150
+F 0 "JUC_A2" H 12880 2142 50  0000 L CNN
+F 1 "Conn_01x02" H 12880 2051 50  0000 L CNN
+F 2 "Ipomoea-library:BH-411-4P24" H 12800 2150 50  0001 C CNN
+F 3 "~" H 12800 2150 50  0001 C CNN
+	1    12800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 1750 12600 2150
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F8CDAC2
+P 7550 5750
+F 0 "J3" H 7468 5325 50  0000 C CNN
+F 1 "Conn_01x04" H 7468 5416 50  0000 C CNN
+F 2 "Ipomoea-library:OLED" H 7550 5750 50  0001 C CNN
+F 3 "~" H 7550 5750 50  0001 C CNN
+	1    7550 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 6350 8350 6350
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 5EF5E9C1
+P 8650 6350
+F 0 "JP11" H 8650 6400 50  0000 C CNN
+F 1 " " H 8650 6444 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 6350 50  0001 C CNN
+F 3 "~" H 8650 6350 50  0001 C CNN
+	1    8650 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 6350 8850 6350
+$Comp
+L Device:Jumper_NO_Small JP10
+U 1 1 5EF5E9BB
+P 8650 6250
+F 0 "JP10" H 8650 6300 50  0000 C CNN
+F 1 " " H 8650 6344 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 6250 50  0001 C CNN
+F 3 "~" H 8650 6250 50  0001 C CNN
+	1    8650 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP9
+U 1 1 5EF5E9B5
+P 8650 6150
+F 0 "JP9" H 8650 6200 50  0000 C CNN
+F 1 " " H 8650 6244 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 6150 50  0001 C CNN
+F 3 "~" H 8650 6150 50  0001 C CNN
+	1    8650 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5EF5E9AF
+P 8650 6050
+F 0 "JP8" H 8650 6100 50  0000 C CNN
+F 1 " " H 8650 6144 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 6050 50  0001 C CNN
+F 3 "~" H 8650 6050 50  0001 C CNN
+	1    8650 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5EF5436E
+P 8650 5850
+F 0 "JP7" H 8650 5900 50  0000 C CNN
+F 1 " " H 8650 5944 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 5850 50  0001 C CNN
+F 3 "~" H 8650 5850 50  0001 C CNN
+	1    8650 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5EF4AFAC
+P 8650 5750
+F 0 "JP6" H 8650 5800 50  0000 C CNN
+F 1 " " H 8650 5844 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 5750 50  0001 C CNN
+F 3 "~" H 8650 5750 50  0001 C CNN
+	1    8650 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5EF41C6F
+P 8650 5650
+F 0 "JP5" H 8650 5700 50  0000 C CNN
+F 1 " " H 8650 5744 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 5650 50  0001 C CNN
+F 3 "~" H 8650 5650 50  0001 C CNN
+	1    8650 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 6150 8850 6150
+Text GLabel 8850 6050 2    50   Input ~ 0
+D1_SDA
+Wire Wire Line
+	8350 5850 8200 5850
+Connection ~ 8350 5850
+Wire Wire Line
+	8350 6350 8350 5850
+Wire Wire Line
+	8400 5750 8550 5750
+Connection ~ 8400 5750
+Wire Wire Line
+	8400 6250 8400 5750
+Wire Wire Line
+	8550 6250 8400 6250
+Connection ~ 8450 5650
+Wire Wire Line
+	8450 6150 8450 5650
+Wire Wire Line
+	8550 6150 8450 6150
+Wire Wire Line
+	8500 5550 8550 5550
+Connection ~ 8500 5550
+Wire Wire Line
+	8500 6050 8500 5550
+Wire Wire Line
+	8550 6050 8500 6050
+Wire Wire Line
+	8550 5850 8350 5850
+Wire Wire Line
+	8550 5650 8450 5650
+Wire Wire Line
+	8200 5550 8500 5550
+Wire Wire Line
+	8850 6250 8750 6250
+Wire Wire Line
+	8850 6050 8750 6050
+Wire Wire Line
+	8750 5850 8850 5850
+Wire Wire Line
+	8850 5750 8750 5750
+Wire Wire Line
+	8750 5650 8850 5650
+Wire Wire Line
+	8750 5550 8850 5550
+$Comp
+L power:VCC #PWR0109
+U 1 1 5EE351EA
+P 8850 6250
+F 0 "#PWR0109" H 8850 6100 50  0001 C CNN
+F 1 "VCC" H 8867 6423 50  0000 C CNN
+F 2 "" H 8850 6250 50  0001 C CNN
+F 3 "" H 8850 6250 50  0001 C CNN
+	1    8850 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EE351E4
+P 8850 6350
+F 0 "#PWR0108" H 8850 6100 50  0001 C CNN
+F 1 "GND" H 8855 6177 50  0000 C CNN
+F 2 "" H 8850 6350 50  0001 C CNN
+F 3 "" H 8850 6350 50  0001 C CNN
+	1    8850 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5EE2D843
+P 8850 5650
+F 0 "#PWR0107" H 8850 5500 50  0001 C CNN
+F 1 "VCC" H 8867 5823 50  0000 C CNN
+F 2 "" H 8850 5650 50  0001 C CNN
+F 3 "" H 8850 5650 50  0001 C CNN
+	1    8850 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EE26685
+P 8850 5550
+F 0 "#PWR0106" H 8850 5300 50  0001 C CNN
+F 1 "GND" H 8855 5377 50  0000 C CNN
+F 2 "" H 8850 5550 50  0001 C CNN
+F 3 "" H 8850 5550 50  0001 C CNN
+	1    8850 5550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8850 6150 2    50   Input ~ 0
+D0_SCL
+Text GLabel 8850 5750 2    50   Input ~ 0
+D0_SCL
+Text GLabel 8850 5850 2    50   Input ~ 0
+D1_SDA
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5EDC79AC
+P 8650 5550
+F 0 "JP4" H 8650 5600 50  0000 C CNN
+F 1 " " H 8650 5644 50  0000 C CNN
+F 2 "Ipomoea-library:Jumper_1side" H 8650 5550 50  0001 C CNN
+F 3 "~" H 8650 5550 50  0001 C CNN
+	1    8650 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5EDA3C1E
+P 8000 5750
+F 0 "J2" H 7918 5325 50  0000 C CNN
+F 1 "Conn_01x04" H 7918 5416 50  0000 C CNN
+F 2 "Ipomoea-library:OLED" H 8000 5750 50  0001 C CNN
+F 3 "~" H 8000 5750 50  0001 C CNN
+	1    8000 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 5550 7750 5550
+Connection ~ 8200 5550
+Wire Wire Line
+	7750 5650 8200 5650
+Connection ~ 8200 5650
+Wire Wire Line
+	8200 5650 8450 5650
+Wire Wire Line
+	7750 5750 8200 5750
+Connection ~ 8200 5750
+Wire Wire Line
+	8200 5750 8400 5750
+Wire Wire Line
+	7750 5850 8200 5850
+Connection ~ 8200 5850
+$EndSCHEMATC
